@@ -13,7 +13,7 @@ class index extends Component {
     this.getData()
   }
   getData(){
-    axios.get('/myapi/zhaopin/latestPosition/doLatestPosition.json', {
+    axios.get('https://job.alibaba.com/zhaopin/latestPosition/doLatestPosition.json', {
         }).then(response=>{
             console.log(response.data.returnValue)
             this.setState({
