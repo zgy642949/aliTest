@@ -1,0 +1,46 @@
+.newPositon {
+    height: 364px;
+    width: 100%;
+    overflow: hidden;
+    .content {
+      width: 1180px;
+      height: 300px;
+      margin: 32px auto;
+      .left {
+        width: 850px;
+        height: 300px;
+        background: #FFFFFF;
+        box-shadow: 0 0 15px 0 rgba(31,56,88,0.08);
+        border-radius: 3px;
+        float: left;
+        overflow: hidden;
+        position: relative;
+      }
+      .right {
+        width: 310px;
+        float: right;
+        .aliYun {
+          display: block;
+          cursor: pointer;
+          height: 140px;
+          background: #FFFFFF;
+          box-shadow: 0 0 15px 0 rgba(31,56,88,0.08);
+          border-radius: 3px;
+          margin-bottom: 20px;
+          text-align: center;
+          line-height: 140px;
+          img {
+            width: 179px;
+            vertical-align: middle;
+          }
+        }
+        .Ehr {
+          @extend .aliYun;
+          img {
+            width: 260px;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+}
