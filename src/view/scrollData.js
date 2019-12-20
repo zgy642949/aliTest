@@ -35,7 +35,7 @@ class index extends Component {
           </div>
           <ul className="dataContent" style = {{top:this.state.top+'px'}} onMouseEnter = {()=>{clearInterval(this.timer)}} onMouseLeave = {this.scrollNow}> 
             {
-              this.props.data?this.props.data.concat(this.props.data.slice(0,6)).map(item=>{
+              this.props.data.length?this.props.data.concat(this.props.data.slice(0,6)).map(item=>{
                 localCounter++;
                 return <li key = {localCounter}>
                   <a href="#">{item.name}</a>

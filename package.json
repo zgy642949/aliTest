@@ -37,11 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy":{
-    "/myapi":{
-       "target":"http://m.kugou.com",
-       "changeOrigin": true
-     }
-   }
+  }
 }
