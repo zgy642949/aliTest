@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+﻿import React, { Component } from 'react'
 import './css/header.scss'
 class index extends Component {
   constructor(props) {
@@ -19,7 +19,7 @@ class index extends Component {
             <ul>
               <li className = 'active'>首 &nbsp;&nbsp;页</li>
               <li>社会招聘</li>
-              <li>校园招聘</li>
+              <li>校招聘</li>
               <li>了解阿里</li>
               <li>个人中心</li>
             </ul>
